@@ -174,12 +174,12 @@
   .gallery__right-box {
     display: block;
     flex: 0 1 100%;
-    height: 450px;
+    height: 670px;
   }
 
   .swiper-container-2 > .swiper-wrapper {
     margin-top: 50px;
-    height: 400px;
+    height: 620px;
   }
 
   .catalog {
@@ -334,6 +334,17 @@
   .gallery__left-box {
     flex: 0 1 100%;
     margin-right: 0;
+  }
+
+  .gallery__right-box {
+    display: block;
+    flex: 0 1 100%;
+    height: 430px;
+  }
+
+  .swiper-container-2 > .swiper-wrapper {
+    margin-top: 50px;
+    height: 400px;
   }
 
   .catalog__header {
