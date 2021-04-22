@@ -16,9 +16,9 @@
   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
   <script src="./js/jquery.formstyler.min.js"></script>
   <script src="./js/swiper-bundle.min.js"></script>
-  <script src="js/inputmask.min.js"></script>
-  <script src="js/just-validate.min.js"></script>
-  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="./js/inputmask.min.js"></script>
+  <script src="./js/just-validate.min.js"></script>
+  <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
   <script src="./js/slaider-class.js"></script>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/media-breakpoints.css">
@@ -2341,71 +2341,73 @@
       <div class="publications__box">
         <div class="publications__left-box">
           <h2 class="publications__title">Издания</h2>
-          <form class="publications__filter" action="#">
-            <h3 class="filter__category_subtitle">Категории</h3>
+          <div class="publications__filter">
+            <button class="category_button">
+              Категории
+            </button>
             <div class="filter__category">
-              <label for="check1" class="activ">
-                <input class="checkbox__input" type="checkbox" name="check" id="check1">
+              <label for="check1 active" class="active">
+                <input class="checkbox__input" type="checkbox" name="check" id="check1 active">
                 Бестселлеры
                 <span class="checkbox__span"></span>
               </label>
-              <label for="check2" class="activ">
-                <input class="checkbox__input" type="checkbox" name="check" id="check2">
+              <label for="check2 active" class="active">
+                <input class="checkbox__input" type="checkbox" name="check" id="check2 active">
                 Искусство
                 <span class="checkbox__span"></span>
               </label>
-              <label for="check3" class="activ">
-                <input class="checkbox__input" type="checkbox" name="check" id="check3">
+              <label for="check3 active" class="active">
+                <input class="checkbox__input" type="checkbox" name="check" id="check3 active">
                 Архитектура
                 <span class="checkbox__span"></span>
               </label>
-              <label for="check4" class="activ">
+              <label for="check4" class="active">
                 <input class="checkbox__input" type="checkbox" name="check" id="check4">
                 Дизайн
                 <span class="checkbox__span"></span>
               </label>
-              <label for="check5" class="activ">
+              <label for="check5" class="active">
                 <input class="checkbox__input" type="checkbox" name="check" id="check5">
                 Мода
                 <span class="checkbox__span"></span>
               </label>
-              <label for="check6" class="activ">
+              <label for="check6" class="active">
                 <input class="checkbox__input" type="checkbox" name="check" id="check6">
                 Детям
                 <span class="checkbox__span"></span>
               </label>
-              <label for="check7" class="activ">
+              <label for="check7" class="active">
                 <input class="checkbox__input" type="checkbox" name="check" id="check7">
                 Художественная литература
                 <span class="checkbox__span"></span>
               </label>
-              <label for="check8" class="activ">
+              <label for="check8" class="active">
                 <input class="checkbox__input" type="checkbox" name="check" id="check8">
                 Публицистика
                 <span class="checkbox__span"></span>
               </label>
-              <label for="check9" class="activ">
+              <label for="check9" class="active">
                 <input class="checkbox__input" type="checkbox" name="check" id="check9">
                 Путеводители
                 <span class="checkbox__span"></span>
               </label>
-              <label for="check10" class="activ">
+              <label for="check10" class="active">
                 <input class="checkbox__input" type="checkbox" name="check" id="check10">
                 Философия
                 <span class="checkbox__span"></span>
               </label>
-              <label for="check11" class="activ">
+              <label for="check11" class="active">
                 <input class="checkbox__input" type="checkbox" name="check" id="check11">
                 Учебная литература
                 <span class="checkbox__span"></span>
               </label>
-              <label for="check12" class="activ">
+              <label for="check12" class="active">
                 <input class="checkbox__input" type="checkbox" name="check" id="check12">
                 Журналы и газеты
                 <span class="checkbox__span"></span>
               </label>
             </div>
-            <h3 class="filter__category_subtitle">Цена</h3>
+            <h3 class="filter__category_subtitle-price">Цена</h3>
             <div class="filter__category_price">
               <span class="number__span">От</span>
               <input class="number__input" type="number" name="number_from" id="from">
@@ -2413,7 +2415,7 @@
               <input class="number__input" type="number" name="number_before" id="before">
               <span class="number__span">руб.</span>
             </div>
-          </form>
+          </div>
         </div>
         <div class="publications__right-box">
           <div class="swiper-container-3">
@@ -3110,7 +3112,7 @@
               var myPlacemark = new ymaps.Placemark([55.8109210689396, 36.97226749999999], {}, {
                 iconLayout: 'default#image',
                 iconImageHref: "./img/icon/icon_mark-map.svg",
-                iconImageSize: [43, 48],
+                iconImageSize: [23, 28],
                 iconImageOffset: [-8, -42]
               });
               // Размещение геообъекта на карте.
@@ -3296,5 +3298,6 @@
 <script src="./js/publications-swiper.js"></script>
 <script src="./js/gallery-swiper.js"></script>
 <script src="./js/project-swiper.js"></script>
+<script src="./js/public__select.js"></script>
 </body>
 </html>
