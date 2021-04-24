@@ -648,10 +648,6 @@
     display: block;
   }
 
-  .filter__category {
-    /*display: none;*/
-  }
-
   .category_button:after {
     display: block;
   }

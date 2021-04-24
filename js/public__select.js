@@ -1,25 +1,18 @@
 document.addEventListener('DOMContentLoaded', function () {
   if (document.documentElement.clientWidth <= 568) {
     $('.active').hide();
-
-
-
-    function runEffect() {
-      $(".category_button").on("click", function () {
-        $('.active').show("blind", 500, callback);
-      });
+  let show = false;
+  $(".category_button").on("click", function () {
+    show = !show;
+    if (show) $('.active').show("blind", 500);
+    else {
+      $('.checkbox__input').each(function() {
+        const input = $(this);
+        const label = input.parent();
+        if (!input.is(':checked')) label.hide("blind", 500);
+      })
     }
-
-
-    function callback() {
-      $(".category_button").on("click", function () {
-        if ($('.checkbox__input').is(':checked')) {
-          $('.active').show();
-        } else {
-          $(".active").hide("blind", 500, runEffect);
-        }
-      });
-    }
+  });
   }
 });
 

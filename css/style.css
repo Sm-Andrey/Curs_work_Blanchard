@@ -1250,7 +1250,7 @@ ul {
 }
 
 .events__card:not(:nth-child(3n)) {
-  margin-right: 46px;
+  margin-right: 41px;
 }
 
 .events__card__img {
