@@ -34,65 +34,29 @@
           <span class="burger__item"></span>
         </div>
       </div>
-      <nav id="nav" class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a class="nav__link" href="#about">О нас</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#gallery">Галерея</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#catalog">Каталог</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#events">События</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#publications">Издания</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#project">Проекты</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#contacts">Контакты</a>
-          </li>
-          <li class="nav__item" aria-label="Войти в личный кабинет" id="log_in">
-            <a class="nav__link" href="#">
-              <svg class="logo-Personal-account" width="13" height="13" viewBox="0 0 13 13"
-                   xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M5.12056 9.09278L6.13889 10.1111L9.75 6.5L6.13889 2.88889L5.12056 3.90722L6.98389 5.77778H0V7.22222H6.98389L5.12056 9.09278ZM11.5556 0H1.44444C0.642778 0 0 0.65 0 1.44444V4.33333H1.44444V1.44444H11.5556V11.5556H1.44444V8.66667H0V11.5556C0 12.35 0.642778 13 1.44444 13H11.5556C12.35 13 13 12.35 13 11.5556V1.44444C13 0.65 12.35 0 11.5556 0Z"
-                />
-              </svg>
-              Войти
-            </a>
-          </li>
-        </ul>
-      </nav>
       <img class="header__logo" src="./img/icon/icon_Logo-Blanchard.png" alt="Иконка сайта Blanchard">
-      <nav class="header__nav">
-        <ul class="header__nav__list">
-          <li class="header__nav__item">
-            <a class="header__nav__link" href="#about">О нас</a>
+      <nav class="header__nav" id="nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#about">О нас</a>
           </li>
-          <li class="header__nav__item">
-            <a class="header__nav__link" href="#gallery">Галерея</a>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#gallery">Галерея</a>
           </li>
-          <li class="header__nav__item">
-            <a class="header__nav__link" href="#catalog">Каталог</a>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#catalog">Каталог</a>
           </li>
-          <li class="header__nav__item">
-            <a class="header__nav__link" href="#events">События</a>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#events">События</a>
           </li>
-          <li class="header__nav__item">
-            <a class="header__nav__link" href="#publications">Издания</a>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#publications">Издания</a>
           </li>
-          <li class="header__nav__item">
-            <a class="header__nav__link" href="#project">Проекты</a>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#project">Проекты</a>
           </li>
-          <li class="header__nav__item">
-            <a class="header__nav__link" href="#contacts">Контакты</a>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#contacts">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -117,88 +81,108 @@
     <div class="container bottom-menu">
       <ul class="bottom-menu__item">
         <li class="bottom-menu__list">
-          <select class="select" name="select">
-            <option value="" data-placeholder>Реализм</option>
-            <option value="">1</option>
-            <option value="">2</option>
-            <option value="">3</option>
-            <option value="">4</option>
-            <option value="">5</option>
-            <option value="">6</option>
-            <option value="">7</option>
-            <option value="">8</option>
-            <option value="">9</option>
-            <option value="">10</option>
-          </select>
+          <button class="list-button-1 hover">
+            Реализм
+          </button>
+          <ul class="list-select-1 scroll">
+            <li class="header__select-item header__select-background-1">Тинторетто</li>
+            <li class="header__select-item header__select-background-2">Фридрих</li>
+            <li class="header__select-item header__select-background-3">Леонардо</li>
+            <li class="header__select-item header__select-background-1">Верроккьо</li>
+            <li class="header__select-item header__select-background-2">Тинторетто</li>
+            <li class="header__select-item header__select-background-3">Фридрих</li>
+            <li class="header__select-item header__select-background-1">Леонардо</li>
+            <li class="header__select-item header__select-background-2">Верроккьо</li>
+            <li class="header__select-item header__select-background-3">Тинторетто</li>
+            <li class="header__select-item header__select-background-1">Фридрих</li>
+            <li class="header__select-item header__select-background-2">Леонардо</li>
+            <li class="header__select-item header__select-background-3">Верроккьо</li>
+          </ul>
         </li>
         <li class="bottom-menu__list">
-          <select class="select " name="select">
-            <option value="" data-placeholder>Импрессионизм</option>
-            <option value="">1</option>
-            <option value="">2</option>
-            <option value="">3</option>
-            <option value="">4</option>
-            <option value="">5</option>
-            <option value="">6</option>
-            <option value="">7</option>
-            <option value="">8</option>
-            <option value="">9</option>
-            <option value="">10</option>
-          </select>
+          <button class="list-button-2 hover">
+            Импрессионизм
+          </button>
+          <ul class="list-select-2 scroll">
+            <li class="header__select-item header__select-background-1">Тинторетто</li>
+            <li class="header__select-item header__select-background-2">Фридрих</li>
+            <li class="header__select-item header__select-background-3">Леонардо</li>
+            <li class="header__select-item header__select-background-1">Верроккьо</li>
+            <li class="header__select-item header__select-background-2">Тинторетто</li>
+            <li class="header__select-item header__select-background-3">Фридрих</li>
+            <li class="header__select-item header__select-background-1">Леонардо</li>
+            <li class="header__select-item header__select-background-2">Верроккьо</li>
+            <li class="header__select-item header__select-background-3">Тинторетто</li>
+            <li class="header__select-item header__select-background-1">Фридрих</li>
+            <li class="header__select-item header__select-background-2">Леонардо</li>
+            <li class="header__select-item header__select-background-3">Верроккьо</li>
+          </ul>
         </li>
         <li class="bottom-menu__list">
-          <select class="select " name="select">
-            <option value="" data-placeholder>Постимпрессионизм</option>
-            <option value="">1</option>
-            <option value="">2</option>
-            <option value="">3</option>
-            <option value="">4</option>
-            <option value="">5</option>
-            <option value="">6</option>
-            <option value="">7</option>
-            <option value="">8</option>
-            <option value="">9</option>
-            <option value="">10</option>
-          </select>
+          <button class="list-button-3 hover">
+            Постимпрессионизм
+          </button>
+          <ul class="list-select-3 scroll">
+            <li class="header__select-item header__select-background-1">Тинторетто</li>
+            <li class="header__select-item header__select-background-2">Фридрих</li>
+            <li class="header__select-item header__select-background-3">Леонардо</li>
+            <li class="header__select-item header__select-background-1">Верроккьо</li>
+            <li class="header__select-item header__select-background-2">Тинторетто</li>
+            <li class="header__select-item header__select-background-3">Фридрих</li>
+            <li class="header__select-item header__select-background-1">Леонардо</li>
+            <li class="header__select-item header__select-background-2">Верроккьо</li>
+            <li class="header__select-item header__select-background-3">Тинторетто</li>
+            <li class="header__select-item header__select-background-1">Фридрих</li>
+            <li class="header__select-item header__select-background-2">Леонардо</li>
+            <li class="header__select-item header__select-background-3">Верроккьо</li>
+          </ul>
         </li>
         <li class="bottom-menu__list">
-          <select class="select " name="select">
-            <option value="" data-placeholder>Авангард</option>
-            <option value="">1</option>
-            <option value="">2</option>
-            <option value="">3</option>
-            <option value="">4</option>
-            <option value="">5</option>
-            <option value="">6</option>
-            <option value="">7</option>
-            <option value="">8</option>
-            <option value="">9</option>
-            <option value="">10</option>
-          </select>
+          <button class="list-button-4 hover">
+            Авангард
+          </button>
+          <ul class="list-select-4 scroll">
+            <li class="header__select-item header__select-background-1">Тинторетто</li>
+            <li class="header__select-item header__select-background-2">Фридрих</li>
+            <li class="header__select-item header__select-background-3">Леонардо</li>
+            <li class="header__select-item header__select-background-1">Верроккьо</li>
+            <li class="header__select-item header__select-background-2">Тинторетто</li>
+            <li class="header__select-item header__select-background-3">Фридрих</li>
+            <li class="header__select-item header__select-background-1">Леонардо</li>
+            <li class="header__select-item header__select-background-2">Верроккьо</li>
+            <li class="header__select-item header__select-background-3">Тинторетто</li>
+            <li class="header__select-item header__select-background-1">Фридрих</li>
+            <li class="header__select-item header__select-background-2">Леонардо</li>
+            <li class="header__select-item header__select-background-3">Верроккьо</li>
+          </ul>
         </li>
         <li class="bottom-menu__list">
-          <select class="select " name="select">
-            <option value="" data-placeholder>Футуризм</option>
-            <option value="">1</option>
-            <option value="">2</option>
-            <option value="">3</option>
-            <option value="">4</option>
-            <option value="">5</option>
-            <option value="">6</option>
-            <option value="">7</option>
-            <option value="">8</option>
-            <option value="">9</option>
-            <option value="">10</option>
-          </select>
+          <button class="list-button-5 hover">
+            Футуризм
+          </button>
+          <ul class="list-select-5 scroll">
+            <li class="header__select-item header__select-background-1">Тинторетто</li>
+            <li class="header__select-item header__select-background-2">Фридрих</li>
+            <li class="header__select-item header__select-background-3">Леонардо</li>
+            <li class="header__select-item header__select-background-1">Верроккьо</li>
+            <li class="header__select-item header__select-background-2">Тинторетто</li>
+            <li class="header__select-item header__select-background-3">Фридрих</li>
+            <li class="header__select-item header__select-background-1">Леонардо</li>
+            <li class="header__select-item header__select-background-2">Верроккьо</li>
+            <li class="header__select-item header__select-background-3">Тинторетто</li>
+            <li class="header__select-item header__select-background-1">Фридрих</li>
+            <li class="header__select-item header__select-background-2">Леонардо</li>
+            <li class="header__select-item header__select-background-3">Верроккьо</li>
+          </ul>
         </li>
       </ul>
-      <form class="bottom-menu__search" action="#">
+      <button class="bottom-menu__search">
         <svg class="menu__search" width="32" height="32" viewBox="0 0 23 22" xmlns="http://www.w3.org/2000/svg">
           <rect width="6.8678" height="1.71695" transform="matrix(-0.718931 0.695081 0.718931 0.695081 4.9375 15.6534)" />
           <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0969 18C7.53041 18 3.99692 14.3229 3.99692 10C3.99692 5.67715 7.53041 2 12.0969 2C16.6634 2 20.1969 5.67715 20.1969 10C20.1969 14.3229 16.6634 18 12.0969 18ZM12.0969 20C6.57408 20 2.09692 15.5228 2.09692 10C2.09692 4.47715 6.57408 0 12.0969 0C17.6198 0 22.0969 4.47715 22.0969 10C22.0969 15.5228 17.6198 20 12.0969 20Z" />
         </svg>
         <input type="search" class="form__search" placeholder="Поиск по сайту" name="search">
-      </form>
+      </button>
     </div>
   </div>
 </header>
@@ -258,13 +242,11 @@
             </div>
           </div>
           <div class="swiper-pagination" aria-hidden="true"></div>
-          <div class="swiper-button-prev" aria-label="Предыдущая картинка"></div>
-          <div class="swiper-button-next" aria-label="Следущая картинка"></div>
         </div>
       </div>
       <div class="container">
         <div class="top-banner__content">
-          <h1 class="top-banner__title">Прикоснитесь к&nbsp;прекрасному</h1>
+          <h2 class="top-banner__title">Прикоснитесь к&nbsp;прекрасному</h2>
           <p class="top-banner__text">Мы вынуждены отталкиваться от того, что реализация намеченных плановых заданий
                                       создаёт предпосылки для новых предложений.</p>
           <a class="top-banner__button btn" href="#contacts">Подписаться на рассылку</a>
@@ -292,48 +274,66 @@
       <div class="gallery__box">
         <div class="gallery__left-box">
           <h2 class="gallery__title">Галерея</h2>
-          <form class="gallery__filter" action="#">
-            <label class="gallery__filter_subtitle">Фильтровать по:</label>
-            <select class="gallery__select-1 select" name="author">
-              <option value="placeholder">Автор</option>
-              <option value="">1</option>
-              <option value="">2</option>
-              <option value="">3</option>
-              <option value="">4</option>
-              <option value="">5</option>
-              <option value="">6</option>
-              <option value="">7</option>
-              <option value="">8</option>
-              <option value="">9</option>
-              <option value="">10</option>
-            </select>
-            <select class="gallery__select-2 select" name="direction">
-              <option value="placeholder">Направление</option>
-              <option value="">1</option>
-              <option value="">2</option>
-              <option value="">3</option>
-              <option value="">4</option>
-              <option value="">5</option>
-              <option value="">6</option>
-              <option value="">7</option>
-              <option value="">8</option>
-              <option value="">9</option>
-              <option value="">10</option>
-            </select>
-            <select class="gallery__select-3 select" name="technic">
-              <option value="placeholder">Техника</option>
-              <option value="">1</option>
-              <option value="">2</option>
-              <option value="">3</option>
-              <option value="">4</option>
-              <option value="">5</option>
-              <option value="">6</option>
-              <option value="">7</option>
-              <option value="">8</option>
-              <option value="">9</option>
-              <option value="">10</option>
-            </select>
-          </form>
+          <ul class="gallery__filter">
+            <span class="gallery__filter_subtitle">Фильтровать по:</span>
+            <li class="gallery__select-1">
+              <button class="gallery__button-1">
+                Автор
+              </button>
+              <ul class="gallery__select-list-1 scroll">
+                <li class="gallery__select-item select-background-1">Тинторетто</li>
+                <li class="gallery__select-item select-background-2">Фридрих</li>
+                <li class="gallery__select-item select-background-3">Леонардо</li>
+                <li class="gallery__select-item select-background-1">Верроккьо</li>
+                <li class="gallery__select-item select-background-2">Тинторетто</li>
+                <li class="gallery__select-item select-background-3">Фридрих</li>
+                <li class="gallery__select-item select-background-1">Леонардо</li>
+                <li class="gallery__select-item select-background-2">Верроккьо</li>
+                <li class="gallery__select-item select-background-3">Тинторетто</li>
+                <li class="gallery__select-item select-background-1">Фридрих</li>
+                <li class="gallery__select-item select-background-2">Леонардо</li>
+                <li class="gallery__select-item select-background-3">Верроккьо</li>
+              </ul>
+            </li>
+            <li class="gallery__select-2">
+              <button class="gallery__button-2">
+                Направление
+              </button>
+              <ul class="gallery__select-list-2 scroll">
+                <li class="gallery__select-item select-background-1">Тинторетто</li>
+                <li class="gallery__select-item select-background-2">Фридрих</li>
+                <li class="gallery__select-item select-background-3">Леонардо</li>
+                <li class="gallery__select-item select-background-1">Верроккьо</li>
+                <li class="gallery__select-item select-background-2">Тинторетто</li>
+                <li class="gallery__select-item select-background-3">Фридрих</li>
+                <li class="gallery__select-item select-background-1">Леонардо</li>
+                <li class="gallery__select-item select-background-2">Верроккьо</li>
+                <li class="gallery__select-item select-background-3">Тинторетто</li>
+                <li class="gallery__select-item select-background-1">Фридрих</li>
+                <li class="gallery__select-item select-background-2">Леонардо</li>
+                <li class="gallery__select-item select-background-3">Верроккьо</li>
+              </ul>
+            </li>
+            <li class="gallery__select-3">
+              <button class="gallery__button-3">
+                Техника
+              </button>
+              <ul class="gallery__select-list-3 scroll">
+                <li class="gallery__select-item select-background-1">Тинторетто</li>
+                <li class="gallery__select-item select-background-2">Фридрих</li>
+                <li class="gallery__select-item select-background-3">Леонардо</li>
+                <li class="gallery__select-item select-background-1">Верроккьо</li>
+                <li class="gallery__select-item select-background-2">Тинторетто</li>
+                <li class="gallery__select-item select-background-3">Фридрих</li>
+                <li class="gallery__select-item select-background-1">Леонардо</li>
+                <li class="gallery__select-item select-background-2">Верроккьо</li>
+                <li class="gallery__select-item select-background-3">Тинторетто</li>
+                <li class="gallery__select-item select-background-1">Фридрих</li>
+                <li class="gallery__select-item select-background-2">Леонардо</li>
+                <li class="gallery__select-item select-background-3">Верроккьо</li>
+              </ul>
+            </li>
+          </ul>
           <div class="left-box__text">
             <p>
               Вам предоставляется 10 бесплатных скачиваний. Для увеличения количества скачиваний
@@ -891,7 +891,7 @@
             <div class="swiper-scrollbar"></div>
           </div>
         </div>
-        <div class="gallery__box__text">
+        <div class="gallery__box-text">
           <p>
             Вам предоставляется 10 бесплатных скачиваний. Для увеличения количества скачиваний
             <a class="left-box__link" href="#log_in">авторизуйтесь</a>, либо воспользуйтесь лицензией.
@@ -933,7 +933,7 @@
         </ul>
       </div>
       <div>
-        <p class="catalog__header__text">
+        <p class="catalog__header-text">
           Акционеры крупнейших компаний, которые представляют собой яркий пример континентально-европейского типа
           политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и морали. Являясь всего лишь
           частью общей картины, стремящиеся вытеснить традиционное производство, нанотехнологии и по сей день остаются
@@ -941,7 +941,7 @@
         </p>
       </div>
       <div class="catalog__content">
-        <div class="catalog__content__left">
+        <div class="catalog__content-left">
           <picture class="content__left__img">
             <source media="(max-width: 320px)" srcset="./img/catalog-img/catalog-img_320.webp"
                     type="image/svg+xml">
@@ -958,12 +958,12 @@
             <img class="catalog-img" src="./img/catalog-img/catalog-img_1920.jpg"
                  alt="Картинка блоке Каталог">
           </picture>
-          <div class="content__left__desc">
+          <div class="content__left-desc">
             <h3 class="desc__title">Доменико Гирландайо</h3>
-            <p class="desc__text__small">
+            <p class="desc__text-small">
               2 июня 1448 — 11 января 1494.
             </p>
-            <p class="desc__text__quote">
+            <p class="desc__text-quote">
               Один из ведущих флорентийских художников Кватроченто, основатель художественной династии, которую
               продолжили его брат Давид и сын Ридольфо. Глава художественной мастерской, где юный Микеланджело в течение
               года овладевал профессиональными навыками. Автор фресковых циклов, в которых выпукло, со всевозможными
@@ -972,12 +972,12 @@
             </p>
           </div>
         </div>
-        <div class="catalog__content__right" id="france">
+        <div class="catalog__content-right" id="france">
           <div id="accordion-resizer-1" class="ui-widget-content">
             <div id="accordion-1">
               <h3 class="period-life">С 1400 по 1499 гг.Fr</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1030,7 +1030,7 @@
               </div>
               <h3 class="period-life">С 1500 по 1599 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1059,7 +1059,7 @@
               </div>
               <h3 class="period-life">С 1600 по 1699 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1088,7 +1088,7 @@
               </div>
               <h3 class="period-life">С 1700 по 1799 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1117,7 +1117,7 @@
               </div>
               <h3 class="period-life">С 1800 по 1899 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1146,7 +1146,7 @@
               </div>
               <h3 class="period-life">С 1900 по 1999 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1175,7 +1175,7 @@
               </div>
               <h3 class="period-life">С 2000 г.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1205,12 +1205,12 @@
             </div>
           </div>
         </div>
-        <div class="catalog__content__right" id="germany">
+        <div class="catalog__content-right" id="germany">
           <div id="accordion-resizer-2" class="ui-widget-content">
             <div id="accordion-2">
               <h3 class="period-life">С 1400 по 1499 гг.Ger</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1263,7 +1263,7 @@
               </div>
               <h3 class="period-life">С 1500 по 1599 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1292,7 +1292,7 @@
               </div>
               <h3 class="period-life">С 1600 по 1699 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1321,7 +1321,7 @@
               </div>
               <h3 class="period-life">С 1700 по 1799 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1350,7 +1350,7 @@
               </div>
               <h3 class="period-life">С 1800 по 1899 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1379,7 +1379,7 @@
               </div>
               <h3 class="period-life">С 1900 по 1999 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1408,7 +1408,7 @@
               </div>
               <h3 class="period-life">С 2000 г.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1438,12 +1438,12 @@
             </div>
           </div>
         </div>
-        <div class="catalog__content__right" id="italy">
+        <div class="catalog__content-right" id="italy">
           <div id="accordion-resizer-3" class="ui-widget-content">
             <div id="accordion-3">
               <h3 class="period-life">С 1400 по 1499 гг.It</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1496,7 +1496,7 @@
               </div>
               <h3 class="period-life">С 1500 по 1599 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1525,7 +1525,7 @@
               </div>
               <h3 class="period-life">С 1600 по 1699 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1554,7 +1554,7 @@
               </div>
               <h3 class="period-life">С 1700 по 1799 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1583,7 +1583,7 @@
               </div>
               <h3 class="period-life">С 1800 по 1899 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1612,7 +1612,7 @@
               </div>
               <h3 class="period-life">С 1900 по 1999 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1641,7 +1641,7 @@
               </div>
               <h3 class="period-life">С 2000 г.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1671,12 +1671,12 @@
             </div>
           </div>
         </div>
-        <div class="catalog__content__right" id="russia">
+        <div class="catalog__content-right" id="russia">
           <div id="accordion-resizer-4" class="ui-widget-content">
             <div id="accordion-4">
               <h3 class="period-life">С 1400 по 1499 гг.Ru</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1729,7 +1729,7 @@
               </div>
               <h3 class="period-life">С 1500 по 1599 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1758,7 +1758,7 @@
               </div>
               <h3 class="period-life">С 1600 по 1699 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1787,7 +1787,7 @@
               </div>
               <h3 class="period-life">С 1700 по 1799 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1816,7 +1816,7 @@
               </div>
               <h3 class="period-life">С 1800 по 1899 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1845,7 +1845,7 @@
               </div>
               <h3 class="period-life">С 1900 по 1999 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1874,7 +1874,7 @@
               </div>
               <h3 class="period-life">С 2000 г.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1904,12 +1904,12 @@
             </div>
           </div>
         </div>
-        <div class="catalog__content__right" id="belgium">
+        <div class="catalog__content-right" id="belgium">
           <div id="accordion-resizer-5" class="ui-widget-content">
             <div id="accordion-5">
               <h3 class="period-life">С 1400 по 1499 гг.Bel</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1962,7 +1962,7 @@
               </div>
               <h3 class="period-life">С 1500 по 1599 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -1991,7 +1991,7 @@
               </div>
               <h3 class="period-life">С 1600 по 1699 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -2020,7 +2020,7 @@
               </div>
               <h3 class="period-life">С 1700 по 1799 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -2049,7 +2049,7 @@
               </div>
               <h3 class="period-life">С 1800 по 1899 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -2078,7 +2078,7 @@
               </div>
               <h3 class="period-life">С 1900 по 1999 гг.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -2107,7 +2107,7 @@
               </div>
               <h3 class="period-life">С 2000 г.</h3>
               <div class="period-life__item">
-                <ul class="period-life__item__list">
+                <ul class="period-life__item-list">
                   <li class="list__name">Бенедетто ди Биндо</li>
                   <li class="list__name">Бергоньоне, Амброджо</li>
                   <li class="list__name">Биссоло, Франческо</li>
@@ -2166,24 +2166,24 @@
             <br>
             с 20 марта по 30 апреля
           </p>
-          <div class="events__card__desc">
+          <div class="events__card-desc">
             <div>
-              <h3 class="card__desc__subtitle">
+              <h3 class="card__desc-subtitle">
                 Книжная гравюра в живом восприятии.
               </h3>
-              <p class="card__desc__text">
+              <p class="card__desc-text">
                 Один из ведущих флорентийских художников Кватроченто, основатель художественной династии, которую
                 продолжили его брат Давид и сын Ридольфо.
               </p>
             </div>
             <div class="focus_link" tabindex="0">
-              <a href="#" class="card__desc__link">Подробнее</a>
+              <a href="#" class="card__desc-link">Подробнее</a>
             </div>
           </div>
         </div>
         <div class="events__card swiper-slide">
           <div class="events__card__img">
-            <picture class="events__card__picture">
+            <picture class="events__card-picture">
               <source media="(max-width: 320px)" srcset="./img/events-img/events-img_320--2.webp"
                       type="image/svg+xml">
               <source media="(max-width: 568px)" srcset="./img/events-img/events-img_768--2.webp"
@@ -2203,24 +2203,24 @@
             <br>
             24 марта 19:0
           </p>
-          <div class="events__card__desc">
+          <div class="events__card-desc">
             <div>
-              <h3 class="card__desc__subtitle">
+              <h3 class="card__desc-subtitle">
                 «Открытая дискуссия». Дмитрий Петров и Сергей Ильин.
               </h3>
-              <p class="card__desc__text">
+              <p class="card__desc-text">
                 Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого
                 факта.
               </p>
             </div>
             <div class="focus_link" tabindex="0">
-              <a href="#" class="card__desc__link">Подробнее</a>
+              <a href="#" class="card__desc-link">Подробнее</a>
             </div>
           </div>
         </div>
         <div class="events__card swiper-slide" id="effect">
           <div class="events__card__img">
-            <picture class="events__card__picture">
+            <picture class="events__card-picture">
               <source media="(max-width: 320px)" srcset="./img/events-img/events-img_320--3.webp"
                       type="image/svg+xml">
               <source media="(max-width: 568px)" srcset="./img/events-img/events-img_768--3.webp"
@@ -2240,24 +2240,24 @@
             <br>
             с 31 марта по 21 апреля
           </p>
-          <div class="events__card__desc">
+          <div class="events__card-desc">
             <div>
-              <h3 class="card__desc__subtitle">
+              <h3 class="card__desc-subtitle">
                 Выставка «Формация 2020»
               </h3>
-              <p class="card__desc__text">
+              <p class="card__desc-text">
                 Идейные соображения высшего порядка, а также современная методология разработки играет важную роль в
                 формировании глубокомысленных рассуждений.
               </p>
             </div>
             <div class="focus_link" tabindex="0">
-              <a href="#" class="card__desc__link">Подробнее</a>
+              <a href="#" class="card__desc-link">Подробнее</a>
             </div>
           </div>
         </div>
         <div class="events__card swiper-slide effect">
           <div class="events__card__img">
-            <picture class="events__card__picture">
+            <picture class="events__card-picture">
               <source media="(max-width: 320px)" srcset="./img/events-img/events-img_320--4.webp"
                       type="image/svg+xml">
               <source media="(max-width: 568px)" srcset="./img/events-img/events-img_768--4.webp"
@@ -2277,23 +2277,23 @@
             <br>
             с 30 марта по 30 апреля
           </p>
-          <div class="events__card__desc">
+          <div class="events__card-desc">
             <div>
-              <h3 class="card__desc__subtitle">
+              <h3 class="card__desc-subtitle">
                 XXIV Международная биеннале молодого искусства
               </h3>
-              <p class="card__desc__text">
+              <p class="card__desc-text">
                 Внезапно, реплицированные с зарубежных источников, современные исследования.
               </p>
             </div>
             <div class="focus_link" tabindex="0">
-              <a href="#" class="card__desc__link">Подробнее</a>
+              <a href="#" class="card__desc-link">Подробнее</a>
             </div>
           </div>
         </div>
         <div class="events__card swiper-slide effect">
           <div class="events__card__img">
-            <picture class="events__card__picture">
+            <picture class="events__card-picture">
               <source media="(max-width: 320px)" srcset="./img/events-img/events-img_320--5.webp"
                       type="image/svg+xml">
               <source media="(max-width: 568px)" srcset="./img/events-img/events-img_768--5.webp"
@@ -2313,24 +2313,24 @@
             <br>
             с 8 апреля по 20 мая
           </p>
-          <div class="events__card__desc">
+          <div class="events__card-desc">
             <div>
-              <h3 class="card__desc__subtitle">
+              <h3 class="card__desc-subtitle">
                 Джон Винзор. Фотографии из серии «Метафора серебра»
               </h3>
-              <p class="card__desc__text">
+              <p class="card__desc-text">
                 Один из ведущих флорентийских художников Кватроченто, основатель художественной династии, которую
                 продолжили его брат Давид и сын Ридольфо.
               </p>
             </div>
             <div class="focus_link" tabindex="0">
-              <a href="#" class="card__desc__link">Подробнее</a>
+              <a href="#" class="card__desc-link">Подробнее</a>
             </div>
           </div>
         </div>
       </div>
       <div class="swiper-pagination"></div>
-      <div class="events__button__center">
+      <div class="events__button-center">
         <button id="button" class="btn events__button">Все события</button>
       </div>
     </div>
@@ -2345,18 +2345,18 @@
               Категории
             </button>
             <div class="filter__category">
-              <label for="check1 active" class="active">
-                <input class="checkbox__input" type="checkbox" name="check" id="check1 active">
+              <label for="check1" class="active">
+                <input class="checkbox__input" type="checkbox" name="check" id="check1">
                 Бестселлеры
                 <span class="checkbox__span"></span>
               </label>
-              <label for="check2 active" class="active">
-                <input class="checkbox__input" type="checkbox" name="check" id="check2 active">
+              <label for="check2" class="active">
+                <input class="checkbox__input" type="checkbox" name="check" id="check2">
                 Искусство
                 <span class="checkbox__span"></span>
               </label>
-              <label for="check3 active" class="active">
-                <input class="checkbox__input" type="checkbox" name="check" id="check3 active">
+              <label for="check3" class="active">
+                <input class="checkbox__input" type="checkbox" name="check" id="check3">
                 Архитектура
                 <span class="checkbox__span"></span>
               </label>
@@ -2421,7 +2421,7 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide swiper-slide-3">
                 <div class="publications__card">
-                  <picture class="publications__card__picture">
+                  <picture class="publications__card-picture">
                     <source media="(max-width: 320px)" srcset="./img/publications-img/publications-img_320--1.webp"
                             type="image/svg+xml">
                     <source media="(max-width: 801px)" srcset="./img/publications-img/publications-img_768--1.webp"
@@ -2433,8 +2433,8 @@
                     <img class="card__picture" src="./img/publications-img/publications-img_1920--1.jpg"
                          alt="Картинка блоке Издания">
                   </picture>
-                  <div class="publications__card__desc">
-                    <div class="card__desc__top">
+                  <div class="publications__card-desc">
+                    <div class="card__desc-top">
                       <div>
                         <h3 class="publications__subtitle">
                           Искусство цвета
@@ -2451,7 +2451,7 @@
               </div>
               <div class="swiper-slide swiper-slide-3">
                 <div class="publications__card">
-                  <picture class="publications__card__picture">
+                  <picture class="publications__card-picture">
                     <source media="(max-width: 320px)" srcset="./img/publications-img/publications-img_320--2.webp"
                             type="image/svg+xml">
                     <source media="(max-width: 801px)" srcset="./img/publications-img/publications-img_768--2.webp"
@@ -2463,8 +2463,8 @@
                     <img class="card__picture" src="./img/publications-img/publications-img_1920--2.jpg"
                          alt="Картинка блоке Издания">
                   </picture>
-                  <div class="publications__card__desc">
-                    <div class="card__desc__top">
+                  <div class="publications__card-desc">
+                    <div class="card__desc-top">
                       <div>
                         <h3 class="publications__subtitle">
                           Типографика
@@ -2481,7 +2481,7 @@
               </div>
               <div class="swiper-slide swiper-slide-3">
                 <div class="publications__card">
-                  <picture class="publications__card__picture">
+                  <picture class="publications__card-picture">
                     <source media="(max-width: 320px)" srcset="./img/publications-img/publications-img_320--3.webp"
                             type="image/svg+xml">
                     <source media="(max-width: 801px)" srcset="./img/publications-img/publications-img_768--3.webp"
@@ -2493,8 +2493,8 @@
                     <img class="card__picture" src="./img/publications-img/publications-img_1920--3.jpg"
                          alt="Картинка блоке Издания">
                   </picture>
-                  <div class="publications__card__desc">
-                    <div class="card__desc__top">
+                  <div class="publications__card-desc">
+                    <div class="card__desc-top">
                       <div>
                         <h3 class="publications__subtitle">
                           Книга про буквы
@@ -2511,7 +2511,7 @@
               </div>
               <div class="swiper-slide swiper-slide-3">
                 <div class="publications__card">
-                  <picture class="publications__card__picture">
+                  <picture class="publications__card-picture">
                     <source media="(max-width: 320px)" srcset="./img/publications-img/publications-img_320--4.webp"
                             type="image/svg+xml">
                     <source media="(max-width: 801px)" srcset="./img/publications-img/publications-img_768--4.webp"
@@ -2523,8 +2523,8 @@
                     <img class="card__picture" src="./img/publications-img/publications-img_1920--4.jpg"
                          alt="Картинка блоке Издания">
                   </picture>
-                  <div class="publications__card__desc">
-                    <div class="card__desc__top">
+                  <div class="publications__card-desc">
+                    <div class="card__desc-top">
                       <div>
                         <h3 class="publications__subtitle">
                           Николай Ильин
@@ -2541,7 +2541,7 @@
               </div>
               <div class="swiper-slide swiper-slide-3">
                 <div class="publications__card">
-                  <picture class="publications__card__picture">
+                  <picture class="publications__card-picture">
                     <source media="(max-width: 320px)" srcset="./img/publications-img/publications-img_320--5.webp"
                             type="image/svg+xml">
                     <source media="(max-width: 801px)" srcset="./img/publications-img/publications-img_768--5.webp"
@@ -2553,8 +2553,8 @@
                     <img class="card__picture" src="./img/publications-img/publications-img_1920--5.jpg"
                          alt="Картинка блоке Издания">
                   </picture>
-                  <div class="publications__card__desc">
-                    <div class="card__desc__top">
+                  <div class="publications__card-desc">
+                    <div class="card__desc-top">
                       <div>
                         <h3 class="publications__subtitle">
                           Модульные сетки в граф...
@@ -2571,7 +2571,7 @@
               </div>
               <div class="swiper-slide swiper-slide-3">
                 <div class="publications__card">
-                  <picture class="publications__card__picture">
+                  <picture class="publications__card-picture">
                     <source media="(max-width: 320px)" srcset="./img/publications-img/publications-img_320--6.webp"
                             type="image/svg+xml">
                     <source media="(max-width: 801px)" srcset="./img/publications-img/publications-img_768--6.webp"
@@ -2583,8 +2583,8 @@
                     <img class="card__picture" src="./img/publications-img/publications-img_1920--6.jpg"
                          alt="Картинка блоке Издания">
                   </picture>
-                  <div class="publications__card__desc">
-                    <div class="card__desc__top">
+                  <div class="publications__card-desc">
+                    <div class="card__desc-top">
                       <div>
                         <h3 class="publications__subtitle">
                           Эволюция графических ст...
@@ -2601,7 +2601,7 @@
               </div>
               <div class="swiper-slide swiper-slide-3">
                 <div class="publications__card">
-                  <picture class="publications__card__picture">
+                  <picture class="publications__card-picture">
                     <source media="(max-width: 320px)" srcset="./img/publications-img/publications-img_320--7.webp"
                             type="image/svg+xml">
                     <source media="(max-width: 801px)" srcset="./img/publications-img/publications-img_768--7.webp"
@@ -2613,8 +2613,8 @@
                     <img class="card__picture" src="./img/publications-img/publications-img_1920--7.jpg"
                          alt="Картинка блоке Издания">
                   </picture>
-                  <div class="publications__card__desc">
-                    <div class="card__desc__top">
+                  <div class="publications__card-desc">
+                    <div class="card__desc-top">
                       <div>
                         <h3 class="publications__subtitle">
                           Искусство и визуальное в...
@@ -2637,7 +2637,7 @@
         </div>
         <div class="publications__mobile-block">
           <div class="publications__card">
-            <picture class="publications__card__picture">
+            <picture class="publications__card-picture">
               <source media="(max-width: 320px)" srcset="./img/publications-img/publications-img_320--1.webp"
                       type="image/svg+xml">
               <source media="(max-width: 568px)" srcset="./img/publications-img/publications-img_320--1.webp"
@@ -2647,8 +2647,8 @@
               <img class="card__picture" src="./img/publications-img/publications-img_1920--1.jpg"
                    alt="Картинка блоке Издания">
             </picture>
-            <div class="publications__card__desc">
-              <div class="card__desc__top">
+            <div class="publications__card-desc">
+              <div class="card__desc-top">
                 <div>
                   <h3 class="publications__subtitle">
                     Искусство цвета
@@ -2663,7 +2663,7 @@
             </div>
           </div>
           <div class="publications__card">
-            <picture class="publications__card__picture">
+            <picture class="publications__card-picture">
               <source media="(max-width: 320px)" srcset="./img/publications-img/publications-img_320--2.webp"
                       type="image/svg+xml">
               <source media="(max-width: 568px)" srcset="./img/publications-img/publications-img_320--1.webp"
@@ -2673,8 +2673,8 @@
               <img class="card__picture" src="./img/publications-img/publications-img_1920--2.jpg"
                    alt="Картинка блоке Издания">
             </picture>
-            <div class="publications__card__desc">
-              <div class="card__desc__top">
+            <div class="publications__card-desc">
+              <div class="card__desc-top">
                 <div>
                   <h3 class="publications__subtitle">
                     Типографика
@@ -2689,7 +2689,7 @@
             </div>
           </div>
           <div class="publications__card">
-            <picture class="publications__card__picture">
+            <picture class="publications__card-picture">
               <source media="(max-width: 320px)" srcset="./img/publications-img/publications-img_320--3.webp"
                       type="image/svg+xml">
               <source media="(max-width: 568px)" srcset="./img/publications-img/publications-img_320--1.webp"
@@ -2699,8 +2699,8 @@
               <img class="card__picture" src="./img/publications-img/publications-img_1920--3.jpg"
                    alt="Картинка блоке Издания">
             </picture>
-            <div class="publications__card__desc">
-              <div class="card__desc__top">
+            <div class="publications__card-desc">
+              <div class="card__desc-top">
                 <div>
                   <h3 class="publications__subtitle">
                     Книга про буквы
@@ -2715,7 +2715,7 @@
             </div>
           </div>
           <div class="publications__card">
-            <picture class="publications__card__picture">
+            <picture class="publications__card-picture">
               <source media="(max-width: 320px)" srcset="./img/publications-img/publications-img_320--4.webp"
                       type="image/svg+xml">
               <source media="(max-width: 568px)" srcset="./img/publications-img/publications-img_320--1.webp"
@@ -2725,8 +2725,8 @@
               <img class="card__picture" src="./img/publications-img/publications-img_1920--4.jpg"
                    alt="Картинка блоке Издания">
             </picture>
-            <div class="publications__card__desc">
-              <div class="card__desc__top">
+            <div class="publications__card-desc">
+              <div class="card__desc-top">
                 <div>
                   <h3 class="publications__subtitle">
                     Николай Ильин
@@ -2741,7 +2741,7 @@
             </div>
           </div>
           <div class="publications__card">
-            <picture class="publications__card__picture">
+            <picture class="publications__card-picture">
               <source media="(max-width: 320px)" srcset="./img/publications-img/publications-img_320--5.webp"
                       type="image/svg+xml">
               <source media="(max-width: 568px)" srcset="./img/publications-img/publications-img_320--1.webp"
@@ -2751,8 +2751,8 @@
               <img class="card__picture" src="./img/publications-img/publications-img_1920--5.jpg"
                    alt="Картинка блоке Издания">
             </picture>
-            <div class="publications__card__desc">
-              <div class="card__desc__top">
+            <div class="publications__card-desc">
+              <div class="card__desc-top">
                 <div>
                   <h3 class="publications__subtitle">
                     Модульные сетки...
@@ -2767,7 +2767,7 @@
             </div>
           </div>
           <div class="publications__card">
-            <picture class="publications__card__picture">
+            <picture class="publications__card-picture">
               <source media="(max-width: 320px)" srcset="./img/publications-img/publications-img_320--6.webp"
                       type="image/svg+xml">
               <source media="(max-width: 568px)" srcset="./img/publications-img/publications-img_320--1.webp"
@@ -2777,8 +2777,8 @@
               <img class="card__picture" src="./img/publications-img/publications-img_1920--6.jpg"
                    alt="Картинка блоке Издания">
             </picture>
-            <div class="publications__card__desc">
-              <div class="card__desc__top">
+            <div class="publications__card-desc">
+              <div class="card__desc-top">
                 <div>
                   <h3 class="publications__subtitle">
                     Эволюция графич...
@@ -2793,7 +2793,7 @@
             </div>
           </div>
           <div class="publications__card">
-            <picture class="publications__card__picture">
+            <picture class="publications__card-picture">
               <source media="(max-width: 320px)" srcset="./img/publications-img/publications-img_320--7.webp"
                       type="image/svg+xml">
               <source media="(max-width: 568px)" srcset="./img/publications-img/publications-img_320--1.webp"
@@ -2803,8 +2803,8 @@
               <img class="card__picture" src="./img/publications-img/publications-img_1920--7.jpg"
                    alt="Картинка блоке Издания">
             </picture>
-            <div class="publications__card__desc">
-              <div class="card__desc__top">
+            <div class="publications__card-desc">
+              <div class="card__desc-top">
                 <div>
                   <h3 class="publications__subtitle">
                     Искусство и визуа...
@@ -3005,27 +3005,27 @@
       <h2 class="contacts__title">Контакты</h2>
       <div class="contacts__box">
         <div class="box__contact">
-          <div class="box__contact__desktop">
-            <h3 class="box__contact__subtitle">Шоурум №4</h3>
-            <p class="box__contact__address">Леонтьевский переулок, дом 5, строение 1</p>
+          <div class="box__contact-desktop">
+            <h3 class="box__contact-subtitle">Шоурум №4</h3>
+            <p class="box__contact-address">Леонтьевский переулок, дом 5, строение 1</p>
           </div>
-          <div class="box__contact__mobile">
-            <h3 class="box__contact__subtitle">Шоурум №2</h3>
-            <p class="box__contact__address">Покровский бульвар, дом 24, строение 3</p>
+          <div class="box__contact-mobile">
+            <h3 class="box__contact-subtitle">Шоурум №2</h3>
+            <p class="box__contact-address">Покровский бульвар, дом 24, строение 3</p>
           </div>
           <form action="https://jsonplaceholder.typicode.com/posts" class="js-form form" method="post">
             <label class="form__title" for="name">Заказать обратный звонок</label>
             <div class="form-group">
-              <label class="form__label__name" for="name"></label>
+              <label class="form__label-name" for="name"></label>
               <input type="text" class="form__input form-control" placeholder="Имя*" autocomplete="off"
                      data-validate-field="name" name="name" id="name">
             </div>
             <div class="form-group">
-              <label class="form__label__name" for="tel"></label>
+              <label class="form__label-name" for="tel"></label>
               <input type="tel" class="form__input form-control" placeholder="Телефон*" autocomplete="off"
                      data-validate-field="tel" name="tel" id="tel">
             </div>
-            <button class="contact__form__btn btn">Заказать</button>
+            <button class="contact__form-btn btn">Заказать</button>
           </form>
           <script>
             var selector = document.querySelector("input[type='tel']");
@@ -3055,7 +3055,7 @@
             <a class="social_icon social__twitter" href="https://www.twitter.com/" aria-label="мы в Твиттер"></a>
           </div>
         </div>
-        <div class="elements__map__desktop">
+        <div class="elements__map-desktop">
           <!--		В качестве адреса для маркера используется:
 					Россия, Москва, Леонтьевский переулок, дом 5, строение 1-->
           <div id="elements__map__desktop" style="width: 100%; height: 100%;"></div>
@@ -3087,7 +3087,7 @@
             }
           </script>
         </div>
-        <div class="elements__map__mobile">
+        <div class="elements__map-mobile">
           <!--		В качестве адреса для маркера используется:
 					Россия, Москва, Леонтьевский переулок, дом 5, строение 1-->
           <div id="elements__map__mobile" style="width: 100%; height: 100%;"></div>
@@ -3119,8 +3119,8 @@
             }
           </script>
         </div>
-        <div class="box__contact__mobile-320">
-          <h3 class="box__contact__subtitle">Шоурум №2</h3>
+        <div class="box__contact-mobile-320">
+          <h3 class="box__contact-subtitle">Шоурум №2</h3>
           <p class="box__contact__address">Покровский бульвар, дом 24, строение 3</p>
         </div>
       </div>
@@ -3220,32 +3220,24 @@
           </svg>
         </a>
       </div>
-      <div class="footer__social__network">
-        <a class="footer__social_icon footer__social__vk" href="https://www.vk.com" aria-label="Мы в В Контакте"></a>
-        <a class="footer__social_icon footer__social__instagram" href="https://www.instagram.com"
+      <div class="footer__social-network">
+        <a class="footer__social_icon footer__social-vk" href="https://www.vk.com" aria-label="Мы в В Контакте"></a>
+        <a class="footer__social_icon footer__social-instagram" href="https://www.instagram.com"
            aria-label="Мы в Instagram"></a>
-        <a class="footer__social_icon footer__social__facebook" href="https://www.facebook.com/"
+        <a class="footer__social_icon footer__social-facebook" href="https://www.facebook.com/"
            aria-label="мы в Facebook"></a>
       </div>
     </div>
   </div>
 </footer>
 <script>
-  //Кастомный селект
-  (function ($) {
-    $(function () {
-      //минимум пунктов после которых появляется скролл
-      $('.select').styler({
-        selectVisibleOptions: 5,
-      });
-    });
-  })(jQuery);
-
   //Кастомный Скролл
   (function ($) {
     $(window).on("load", function () {
       //куда добавить класс
-      $(".jq-selectbox__dropdown > ul").mCustomScrollbar();
+      $(".scroll").mCustomScrollbar({
+        setHeight: 250,
+      });
     });
   })(jQuery);
 
@@ -3290,6 +3282,8 @@
     $("#tabs").tabs();
   });
 </script>
+<script src="./js/gallery-select.js"></script>
+<script src="./js/header-select.js"></script>
 <script src="./js/accordion.js"></script>
 <script src="./js/swiper.js"></script>
 <script src="./js/events.js"></script>
