@@ -436,7 +436,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 10px;
   transition: color 0.3s ease-in-out;
 }
 
@@ -500,7 +499,7 @@ ul {
 }
 
 .bottom-menu__list:not(:nth-child(5n)) {
-  margin-right: 70px;
+  margin-right: 95px;
 }
 
 .header__select-item {
@@ -672,7 +671,7 @@ ul {
   position: relative;
   z-index: 1;
   pointer-events: none;/*пропускает клики мыши до слайдера*/
-  padding: 138px 0 122px 0;
+  padding: 138px 0 144px 0;
   max-width: 965px;
 }
 
@@ -680,7 +679,7 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 71px;
-  line-height: 87px;
+  line-height: 86px;
   color: #FFFFFF;
   margin: 0 0 17px 0;
 }
@@ -692,7 +691,7 @@ ul {
   font-size: 18.2px;
   line-height: 30px;
   color: #FFFFFF;
-  margin: 0 0 92px 0;
+  margin: 0 0 115px 0;
 }
 
 .top-banner__button {
@@ -702,7 +701,7 @@ ul {
   font-size: 18px;
   line-height: 25px;
   color: #fff;
-  padding: 23px 32px;
+  padding: 21px 37px;
   background-color: var(--color-backgraund-btn);
   border-radius: 100px;
 }
@@ -738,7 +737,7 @@ ul {
 .about__title {
   font-size: 48px;
   line-height: 66px;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
   color: var(--color-text-black);
 }
 
@@ -778,7 +777,7 @@ ul {
   font-size: 48px;
   line-height: 65px;
   padding-top: 0;
-  margin-bottom: 13px;
+  margin-bottom: 20px;
   color: var(--color-text-white);
 }
 
@@ -790,8 +789,12 @@ ul {
 
 .gallery__filter_subtitle {
   color: var(--color-text-white);
-  margin-bottom: 15px;
+  margin-bottom: 7px;
   padding-left: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
 }
 
 .gallery__select-1,
@@ -960,7 +963,7 @@ ul {
 }
 
 .left-box__text {
-  margin-top: 473px;
+  margin-top: 474px;
   max-width: 380px;
   font-style: normal;
   font-weight: 600;
@@ -1197,7 +1200,7 @@ ul {
 
 .desc__title {
   margin-top: 33px;
-  margin-bottom: 9px;
+  margin-bottom: 6px;
   font-weight: 600;
   font-size: 24px;
   line-height: 33px;
@@ -1351,7 +1354,7 @@ ul {
 
 /*-----------------------------------Events--------------------------------------------*/
 .events {
-  padding: 80px 0 72px 0;
+  padding: 80px 0 77px 0;
   background: #fff;
 }
 
@@ -1517,7 +1520,7 @@ label {
 }
 
 .publications__title {
-  margin-bottom: 17px;
+  margin-bottom: 15px;
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
@@ -1596,7 +1599,7 @@ label {
   display: flex;
   flex-direction: column;
   height: 100%;
-  margin-bottom: 28px;
+  margin-bottom: 35px;
   color: var(--color-text-white);
 }
 
@@ -1896,7 +1899,7 @@ label {
   font-style: normal;
   font-weight: 400;
   font-size: 16.6px;
-  line-height: 33px;
+  line-height: 32px;
   transition: color 0.3s ease-in-out;
 }
 
@@ -2115,7 +2118,7 @@ label {
 }
 
 .contacts__title {
-  margin-bottom: 14px;
+  margin-bottom: 17px;
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
@@ -2156,7 +2159,7 @@ label {
   font-weight: 600;
   font-size: 15.6px;
   line-height: 32px;
-  margin-bottom: 26px;
+  margin-bottom: 28px;
 }
 
 .form__title {
