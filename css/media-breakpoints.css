@@ -554,8 +554,6 @@
   }
 
   .top-banner__button {
-    width: 200px;
-    height: 40px;
     font-size: 12px;
     line-height: 16px;
     padding: 11px 16px;
@@ -644,7 +642,7 @@
     height: 100%;
   }
 
-  .card__desc__top {
+  .card__desc-top {
     display: block;
   }
 
