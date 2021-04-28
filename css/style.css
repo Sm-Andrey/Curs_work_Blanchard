@@ -136,6 +136,7 @@ ul {
   user-select: none;
   appearance: none;
   touch-action: manipulation;
+  border: 3px solid transparent;
   transition: background 0.3s ease-in-out;
 }
 
@@ -1189,10 +1190,18 @@ ul {
 
 .catalog__content-left {
   display: flex;
-  flex-direction: column;
   flex: 0 1 49%;
   margin-right: 20px;
 }
+
+.content__left {
+  display: none;
+}
+
+.content-visible {
+  display: block;
+}
+
 
 .content__left-desc {
   padding-right: 25px;
@@ -1327,11 +1336,11 @@ ul {
 }
 
 .list__name {
-  width: 200px;
+  width: 220px;
   margin-right: 10px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 32px;
+  line-height: 40px;
   margin-top: 5px;
   cursor: pointer;
   color: var(--color-text-black);
@@ -1431,18 +1440,18 @@ ul {
   color: var(--color-text-black);
 }
 
+.focus_link {
+  display: inline-block;
+  padding: 4px;
+  cursor: pointer;
+}
+
 .card__desc-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
   border-bottom: 1px solid;
   color: var(--color-text-link);
-}
-
-.focus_link {
-  display: inline-block;
-  padding: 4px;
-  cursor: pointer;
 }
 
 .focus_link:focus {
@@ -1871,7 +1880,7 @@ label {
   line-height: 22px;
   border-radius: 100px;
   color: var(--color-text-white);
-  border: 2px solid var(--color-text-link);
+  border: 3px solid var(--color-text-link);
   background-color: transparent;
 }
 
@@ -2210,17 +2219,29 @@ label {
   line-height: 25px;
   text-align: center;
   box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
   border-radius: 100px;
   border: 1px solid #9D5CD0;
   color: #9D5CD0;
   background: #fff;
+  transition: background 0.3s ease-in-out;
+}
+
+.contact__form-btn:focus {
+  border: 1px solid var(--color-backgraund-hover);
 }
 
 @media (hover) {
-  .contact__form__btn:hover {
-    box-sizing: border-box;
+  .contact__form-btn:hover {
+    background: var(--color-backgraund-hover);
     color: var(--color-text-white);
   }
+}
+
+.contact__form-btn:active {
+  background: var(--color-text-link-active);
+  border: 1px solid var(--color-border-btn-active);
 }
 
 /*--------------------------Соц сети------------------------------*/

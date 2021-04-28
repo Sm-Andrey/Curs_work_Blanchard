@@ -24,7 +24,7 @@
     display: none;
   }
 
-  .publications__card__desc {
+  .publications__card-desc {
     margin-right: 30px;
   }
 
@@ -40,7 +40,7 @@
     padding: 124px 102px 104px 0;
   }
 
-  .elements__map__desktop {
+  .elements__map-desktop {
     display: inline-block;
     width: 700px;
     height: 700px;
@@ -155,7 +155,7 @@
     margin-bottom: 4px;
   }
 
-  .desc__text__quote {
+  .desc__text-quote {
     font-size: 15px;
   }
 
@@ -172,12 +172,12 @@
     margin-bottom: 0;
   }
 
-  .card__desc__subtitle {
+  .card__desc-subtitle {
     margin-top: 0;
     margin-bottom: 0;
   }
 
-  .card__desc__text {
+  .card__desc-text {
     margin-bottom: 22px;
   }
 
@@ -189,7 +189,7 @@
     display: flex;
   }
 
-  .events__card__desc {
+  .events__card-desc {
     padding: 5px 35px 45px 35px;
   }
 
@@ -254,7 +254,7 @@
     padding-left: 47px;
   }
 
-  .publications__card__desc {
+  .publications__card-desc {
     margin-right: 0;
     padding: 0;
   }
@@ -297,11 +297,11 @@
     padding: 100px 102px 104px 0;
   }
 
-  .box__contact__desktop {
+  .box__contact-desktop {
     display: none;
   }
 
-  .box__contact__mobile {
+  .box__contact-mobile {
     display: inline-block;
   }
 
@@ -318,18 +318,18 @@
     margin-right: 30px;
   }
 
-  .elements__map__desktop {
+  .elements__map-desktop {
     display: none;
   }
 
-  .elements__map__mobile {
+  .elements__map-mobile {
     display: inline-block;
     width: 537px;
     height: 700px;
     margin-right: -50px;
   }
 
-  .footer__social__network {
+  .footer__social-network {
     width: 240px;
     height: 60px;
   }
@@ -386,7 +386,7 @@
     margin-bottom: 13px;
   }
 
-  .catalog__content__left {
+  .catalog__content-left {
     order: 3;
   }
 
@@ -402,11 +402,11 @@
     margin-right: 34px;
   }
 
-  .catalog__header__text {
+  .catalog__header-text {
     margin-bottom: 19px;
   }
 
-  .catalog__content__right {
+  .catalog__content-right {
     flex: 0 1 100%;
     margin-bottom: 50px;
   }
@@ -436,7 +436,7 @@
     flex: 0 1 45%;
   }
 
-  .events__card__desc {
+  .events__card-desc {
     padding: 5px 35px 40px 35px;
   }
 
@@ -463,7 +463,7 @@
 
   .publications__right-box {
     flex: 0 1 100%;
-    height: 500px;
+    height: 510px;
   }
 
   .swiper-container-3 {
@@ -742,14 +742,14 @@
     margin-bottom: 12px;
   }
 
-  .box__contact__mobile {
+  .box__contact-mobile {
     display: none;
   }
 
   .box__contact__mobile-320 {
     display: inline-block;
   }
-  .elements__map__mobile {
+  .elements__map-mobile {
     height: 540px;
     margin-left: -50px;
     margin-right: 0;
@@ -856,7 +856,7 @@
     margin-bottom: 15px;
   }
 
-  .gallery__box__text {
+  .gallery__box-text {
     font-size: 17px;
   }
 
@@ -955,7 +955,7 @@
     border-radius: 15px;
   }
 
-  .content__left__desc {
+  .content__left-desc {
     padding-right: 0;
   }
 
@@ -964,7 +964,7 @@
     margin-bottom: 9px;
   }
 
-  .desc__text__quote {
+  .desc__text-quote {
     font-size: 16px;
   }
 
@@ -994,15 +994,15 @@
     overflow: hidden;
   }
 
-  .events__card__desc {
+  .events__card-desc {
     padding: 5px 19px 44px 26px;
   }
 
-  .card__desc__subtitle {
+  .card__desc-subtitle {
     margin-bottom: 34px;
   }
 
-  .card__desc__text {
+  .card__desc-text {
     margin-bottom: 55px;
   }
 
@@ -1055,20 +1055,20 @@
     display: flex;
   }
 
-  .box__contact__subtitle {
+  .box__contact-subtitle {
     font-size: 17px;
     line-height: 25px;
     margin-top: 0;
     margin-bottom: 0;
   }
 
-  .box__contact__address {
+  .box__contact-address {
     font-size: 13.5px;
     line-height: 19px;
     margin-bottom: 20px;
   }
 
-  .elements__map__mobile {
+  .elements__map-mobile {
     width: 320px;
     height: 320px;
     margin-left: -15px;
@@ -1083,7 +1083,7 @@
     font-size: 18px;
   }
 
-  .contact__form__btn {
+  .contact__form-btn {
     font-size: 12px;
     padding: 7px 35px;
   }
@@ -1104,7 +1104,7 @@
     height: 132px;
   }
 
-  .footer__social__network {
+  .footer__social-network {
     width: 210px;
     height: 50px;
   }
